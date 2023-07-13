@@ -1,0 +1,38 @@
+@import "node_modules/ol/ol.css";
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  cursor: none;
+}
+
+.hide{
+  display: none;
+}
+
+.HUD{
+  z-index: 999;
+  position: absolute;
+  right: 2vw;
+  width: auto;
+  height: auto;
+  min-width: 20vw;
+
+
+  border-radius: 0.75em;
+
+  padding: 3vmin;
+
+  background-color: azure;
+}
+
+.HUD_response{
+  padding: 0.25vmin;
+  background-color: rgba(1, 1, 1, 0.306);
+}
